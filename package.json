@@ -1,0 +1,13 @@
+{
+  "name": "what-lobsters-says-cljs",
+  "version": "1.0.0",
+  "description": "ClojureScript browser extension for Lobsters",
+  "scripts": {
+    "dev": "shadow-cljs watch extension",
+    "build": "shadow-cljs release extension",
+    "clean": "rm -rf public/js .shadow-cljs"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^3.3.2"
+  }
+}

@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+package-lock.json
+bun.lock
+bun.lockb
+
+# Build outputs
+.shadow-cljs/
+public/js/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# REPL
+.nrepl-port
+.cpcache/
+.lsp/
+.clj-kondo/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

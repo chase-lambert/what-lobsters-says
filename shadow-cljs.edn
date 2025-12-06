@@ -1,0 +1,9 @@
+{:source-paths ["src"]
+
+ :builds
+ {:extension
+  {:target :browser
+   :output-dir "public/js"
+   :asset-path "/js"
+   :modules {:popup {:init-fn lobsters-ext.core/init}}
+   :devtools {:after-load lobsters-ext.core/reload!}}}}

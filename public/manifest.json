@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "What Lobsters Says (ClojureScript)",
+  "version": "1.0.3",
+  "description": "Check if the current page has been discussed on Lobsters",
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.png",
+      "96": "icons/icon96.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://lobste.rs/*"]
+}
