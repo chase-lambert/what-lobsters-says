@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "What Lobsters Says (ClojureScript)",
-  "version": "1.0.3",
+  "name": "What Lobsters Says",
+  "version": "1.0.0",
   "description": "Check if the current page has been discussed on Lobsters",
   "icons": {
     "48": "icons/icon48.png",

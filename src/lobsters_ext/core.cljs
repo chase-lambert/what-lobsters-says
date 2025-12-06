@@ -74,7 +74,9 @@
                       "<button class=\"btn\" data-link=\"" (escape-html search-url) "\">"
                       "Search All Lobsters Stories"
                       "</button>"
-                      "<button class=\"btn\" data-link=\"https://lobste.rs/stories/new\">"
+                      "<button class=\"btn\" data-link=\"https://lobste.rs/stories/new?url="
+                      (js/encodeURIComponent clean-url)
+                      "\">"
                       "Submit to Lobsters"
                       "</button>"
                       "</div>"

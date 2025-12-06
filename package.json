@@ -1,5 +1,5 @@
 {
-  "name": "what-lobsters-says-cljs",
+  "name": "what-lobsters-says",
   "version": "1.0.0",
   "description": "ClojureScript browser extension for Lobsters",
   "scripts": {
