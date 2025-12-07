@@ -51,7 +51,6 @@
          "<div class=\"story-meta\">"
          "<span class=\"highlight\">" (escape-html (:score story)) "</span> points • "
          "<span class=\"highlight\">" (escape-html (or (:comment_count story) 0)) "</span> comments • "
-         "by <strong>" (escape-html (get-in story [:submitter_user :username])) "</strong> • "
          (escape-html (api/time-since (:created_at story)))
          "</div>"
          related-html
