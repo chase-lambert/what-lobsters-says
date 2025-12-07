@@ -4,6 +4,9 @@ A browser extension that shows you if the page you're viewing has been discussed
 
 Inspired by [What HN Says](https://github.com/pinoceniccola/what-hn-says-webext) by pinoceniccola.
 
+<img width="2482" height="1321" alt="image" src="https://github.com/user-attachments/assets/58568160-0c70-4150-84f3-356969a2bca2" />
+
+
 ## Building
 
 Requires Java (for ClojureScript compiler) and either npm or bun.
